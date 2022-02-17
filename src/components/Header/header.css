@@ -27,6 +27,8 @@ header {
     border-radius: .5rem;
 }
 .search-bar input {
+    border-radius: .5rem;
+    background-color: transparent;
     border: none;
     outline: none;
     flex: 3;

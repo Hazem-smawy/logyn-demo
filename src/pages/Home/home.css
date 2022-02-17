@@ -30,12 +30,13 @@
     align-items: center;
     justify-content: space-between;
     padding:.5rem;
-    background-color: #cfcdcd;
+    background-color: #e4e1e1;
     border-radius: .5rem;
     letter-spacing: 1px;
     color:#555;
     margin-left: 1rem;
     padding: .5rem;
+    box-shadow: 10px 10px 10px 10px inset #709bfd80;
 }
 .cat li .cat-icon {
     margin-right: .5rem;

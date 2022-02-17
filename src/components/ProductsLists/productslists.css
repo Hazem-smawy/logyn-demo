@@ -1,0 +1,78 @@
+.productslists-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 2rem 1.5rem;
+}
+.productlist {
+   border-radius: 1.5rem;
+   background-color: #e4e1e1;
+   box-shadow: 0 0 6px 1px #c0bdbd;
+}
+.productlist-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productlist-img img {
+    border-radius: 1.5rem;
+    min-width: 100%;
+}
+.productlist .color {
+    position: absolute;
+    background-color: #c0bdbd9f;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap:.5rem;
+    border-radius: 2rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding:1rem .5rem;
+}
+.productlist .color span {
+    border: 1px solid rgb(15, 15, 15);
+    display: block;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.productlist .icons {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap:1rem;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding:.5rem .2rem;
+}
+.productlist .icons span {
+    width:50px;
+    height: 50px;
+    border-radius: .5rem;
+    background-color: #ffffff81;
+    box-shadow: 0 0 6px 1px #c0bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productlist .icons .add,
+.productlist .icons .like{
+    font-size: 35px;
+}
+.productlist-details {
+    padding:.5rem .5rem .7rem;
+}
+.productlist-details h4 {
+    color:#777;
+    font-size: 20px;
+}
+.productlist-details p {
+    margin-top: 5px;
+    font-weight: 600;
+    color:rgb(255, 0, 0);
+}

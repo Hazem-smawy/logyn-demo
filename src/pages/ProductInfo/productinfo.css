@@ -1,0 +1,125 @@
+.productinfo-container {
+    margin: 2rem 1rem;
+    margin-bottom: 1.5rem;
+    border:2px solid #b4afaf;
+    border-radius: 1rem;
+}
+.productinfo-container img {
+    border-radius: 1rem;
+}
+.productinfo-container .productinfo-info {
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #d3d3d3;
+    border-radius: 1rem;
+    min-height: 100%;
+    position: relative;
+}
+.productinfo-container .productinfo-info .price {
+    position: absolute;
+    right: 0;
+    top:0;
+    padding: 1rem;
+    color:#777;
+    font-size: large;
+    font-weight: bolder;
+}
+.productinfo-container .productinfo-info h4 {
+    margin: 1.5rem 0;
+}
+ .productinfo-info p {
+    color: #3e3e3f;
+    line-height: normal;
+    font-size: 15px;
+}
+.color-quantity {
+    margin:1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-color {
+    display: flex;
+    justify-content: space-around;
+}
+.info-color span {
+    border-radius: 50%;
+    border: 3px solid #d3d3d3;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    box-shadow: 0px 0px 0px 2px #000;
+    margin-right: 10px;
+    opacity: .5;
+}
+
+
+.quantity {
+    display: flex;
+    justify-content: space-evenly;
+}
+.quantity .dec,
+.quantity .inc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242323cc;
+    width:30px;
+    height: 30px;
+    color:#fff;
+    padding:.5rem;
+    border-radius: 50%;
+    font-size: 20px;
+  
+}
+.quantity .count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+    width:30px;
+    height: 30px;
+    padding:.5rem;
+    border-radius: 50%;
+}
+.info-add {
+    display: flex;
+    justify-content: space-between;
+
+}
+.info-add span {
+   width: 60px;
+    background-color: #fff;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    margin-right: 1rem;
+    border: 2px solid #242323cc;
+}
+.info-add button {
+    border-radius: .5rem;
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: #242323cc;
+    color: #fff;
+  padding: .5rem .5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.info-add button p {
+    color:#fff;
+}
+.info-add button p:nth-of-type(2){
+    background-color: #777;
+    padding: .3rem;
+    border-radius: 50%;
+}
+.quantity .add-icon {
+    margin:0 1rem;
+}

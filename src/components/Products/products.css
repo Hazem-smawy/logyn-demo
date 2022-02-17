@@ -8,13 +8,14 @@
 }
 .product {
     position: relative;
-    display:flex;
+    display: flex;
     flex-direction: column;
     border-radius: 1rem;
     background-color: #fff;
     height: min-content;
     overflow: hidden;
-    border:2px solid #777;
+    /* border: 2px solid rgb(165 162 162); */
+    box-shadow: 1px 1px 15px #bdbbbb;
 }
 
 .product-img {
